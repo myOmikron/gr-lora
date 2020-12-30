@@ -24,6 +24,9 @@
 include(GrPlatform) #define LIB_SUFFIX
 
 list(APPEND lora_sources
+    lora_client_decoder_impl.cc
+    lora_client_decoder_impl.cc
+    lora_client_decoder_impl.cc
 )
 
 set(lora_sources "${lora_sources}" PARENT_SCOPE)

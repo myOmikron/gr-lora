@@ -23,5 +23,7 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/lora
+    lora_client_decoder.h
+    lora_client_decoder.h
+    lora_client_decoder.h DESTINATION include/lora
 )
